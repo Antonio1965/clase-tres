@@ -1,0 +1,15 @@
+.social .icon {
+  font-size: 60px;
+}
+
+.social .icon-whatsapp {
+  color: green;
+}
+
+.social .icon-twitter {
+  color: skyblue;
+}
+
+.social .icon-github {
+  color: black;
+}

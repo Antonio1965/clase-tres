@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contacts from './components/Contacts';
+import  Footer from './components/Footer';
+
+import './styles/styles.css';
+import './styles/social.css';
+import './styles/fonts.css';
+
+
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <About textos="Hola mi nombre es Tsutsumi Jose Antonio y soy Programador Web Full stack. Este es mi portafolio de trabajo 
+          realizado en los cursos de programador y curso de React avanzado."/>
+      <Projects/>
+      <Contacts/>
+      <Footer textos="Todos los derechos reservados - Tsutsumi Jose Antonio."/>
     </div>
+    </>
   );
 }
 
